@@ -1,0 +1,219 @@
+.background{
+    height: 100vh;
+    width: 205vb;
+    background-color: rgb(4, 4, 47);
+}
+.header{
+    height: 10vh;
+    width: 205vb;
+    
+    background-color: rgba(4, 4, 51, 0.851);
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+}
+.account{
+    margin-left: 17rem;
+    color: orangered;
+    margin-top: -0.5rem;
+}
+.account:hover{
+    color: white;
+}
+.account p{
+    margin-top: -1rem;
+}
+.pic{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+.pic img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 10rem;
+    margin-top: 1rem;
+}
+.logo {
+    
+    height: 10vh;
+    width: 40vh;
+    
+}
+#logo{
+    height: 15vh;
+    width: 49vh;
+    overflow: hidden;
+    margin-top: rem;
+    margin-left: -6.4rem;
+
+}
+.logo #logo video{
+    margin-top: -10rem;
+    margin-left: -5rem;
+    display: block;
+    min-height: 100%;
+    min-width: 200%;
+    overflow: hidden;
+}
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20vb;
+    
+}
+.c1{
+    margin-left: 5vb;
+    text-decoration: none;
+    
+}
+.c1 a:hover{
+    color: white;
+}
+.c1 a{
+    text-decoration: none;
+    color: orangered;
+}
+.customer{
+    margin-left: 38vb;
+    margin-top: 2.5vh;
+    height: 5vh;
+    width: 27vb;
+    border-radius: 3rem;
+    background-color: orangered;
+    border: 0 orangered;
+    color: rgb(4, 4, 47);
+    font-size: 15px;
+    font-weight: 700;
+}
+.customer:hover{
+    background-color: white;
+}
+.mid-content{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 12vh; */
+}
+.sidebar{
+    height: 85vh;
+    width: 40vb;
+    background-color: rgba(0, 0, 0, 0.123);
+    margin-left: 3vb;
+    margin-top: 0vh;
+    border-radius: 2rem;
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding-top: 15vh;
+}
+.s1{
+    height: 5vh;
+    width: 100%;
+    /* margin-top: 8vh; */
+    justify-content: center;
+    padding-left: 2vb;
+    
+    
+    
+}
+.s1 h2{
+    margin-left: 8vb;
+    margin-top: 3rem;
+}
+/* .icon{
+    justify-content: center;
+    margin-top: 3vh;
+} */
+.sidebar .s1 h2:hover{
+    color: white;
+}
+.s1 a{
+    text-decoration: none;
+    color: orangered;
+}
+.explore{
+    height: 30vh;
+    width: 96vb;
+    background-color: rgba(0, 0, 0, 0.07);
+    margin: 5vb;
+    border-radius: 2rem;
+    margin-top: 12vh;
+    padding-left: 2vb;
+        
+}
+.explore h2 {
+    color: orangered;
+}
+.explore h3 {
+    color: orangered;
+}
+.feed{
+    margin-left: 14rem;
+    margin-top: 1.3rem;
+}
+.sub{
+    height: 1.6rem;
+    width: 5rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+}
+.explore .first{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1.5rem;
+    color: white;
+}
+.explore h2 {
+    margin-top: -1rem;
+}
+.secd{
+    margin-top: -1.5rem;
+}
+.secd p{
+    margin-top: -0.5rem;
+    color: white;
+}
+.due1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.due1 button{
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+    background-color: orangered;
+    border-color: orangered;
+}
+.due1 button:hover{
+    background-color: white;
+    border-color: white;
+}
+.book{
+    height: 1.6rem;
+    width: 5rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+}
+
+
+.map{
+    height: 88vh;
+    width: 50vb;
+    background-color: rgba(0, 0, 0, 0.075);
+    margin-top: 12vh;
+}
+.map img{
+    height: 88vh;
+    width: 50vh;
+}
+.cards h2{
+    color: orangered;
+    margin-left: 5vb;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20rem;
+    width: 50rem;
+}
+.card video{
+    height: 22.5rem;
+    width: 50rem;
+}
